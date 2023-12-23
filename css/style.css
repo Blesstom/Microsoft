@@ -62,3 +62,26 @@ width: 95px;
 .space{
     height: 100px;
 }
+#features{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.features-item{
+    width: 20%;
+}
+.features-item img{
+    width: 100%;
+}
+.features-item a{
+    text-decoration: none;
+    color: rgb(9, 67, 134);
+    font-weight: 500;
+
+}
+.features-item a:hover{
+    text-decoration: underline;
+}
+.feature-text{
+    padding-left: 8%;
+}
